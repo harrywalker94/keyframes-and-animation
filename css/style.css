@@ -1,0 +1,88 @@
+.box {
+    background-color: #5BA1D3;
+    display: inline-block;
+    width: 150px;
+    height: 0px;
+    margin: 50px;
+    animation-name: growing;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes growing {
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 150px;
+    }
+}
+.box2 {
+    background-color: #7BD39B;
+    display: inline-block;
+    width: 150px;
+    height: 0px;
+    margin: 50px;
+    animation-name: growing;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes growing {
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 150px;
+    }
+}
+.box3 {
+    background-color: #D37B83;
+    display: inline-block;
+    width: 150px;
+    height: 0px;
+    margin: 50px;
+    animation-name: growing;
+    animation-duration: 4s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes growing {
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 150px;
+    }
+}
+.box4 {
+    background-color: #FF744E;
+    display: inline-block;
+    width: 150px;
+    height: 0px;
+    margin: 50px;
+    animation-name: growing;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes growing {
+    from {
+        height: 0;
+    }
+    
+    to {
+        height: 150px;
+    }
+}
